@@ -6,18 +6,18 @@ import heroImage from "../assets/heroProductImage.png";
 const Hero = () => {
   return (
     <div className="w-full h-[100vh] top-[90px]">
-      <div className="w-full h-[90%] flex flex-col justify-center items-center text-[var(--primary-blue)] px-4 text-center">
+      <div className="w-full h-[90%] flex flex-col justify-center items-center text-[var(--primary-blue)] my-[3rem] px-4 text-center">
         <h1>Stupidly Simple </h1>
         <h1 className="py-2">
           <span className="text-[var(--primary-blue)]">Accounting</span>{" "}
           Software
         </h1>
-        <div className="my-4">
+        <div className="my-[2rem]">
           <img
             src={heroImage}
             alt="Onesheet Product"
-            width={500}
-            height={500}
+            width={520}
+            height={520}
           />
         </div>
         <p className="text-xl py-[3rem] max-w-[55rem]">

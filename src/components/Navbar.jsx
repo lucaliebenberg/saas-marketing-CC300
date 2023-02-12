@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
+// imports
+import Logo from "../assets/main-logo.png";
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
@@ -10,8 +13,10 @@ const Navbar = () => {
   return (
     <div className="w-full h-[90px] bg-white">
       <div className="max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full">
-        <div>
-          <h1 className="text-[var(--primary-blue)]">ONESHEET</h1>
+        <div className=" bg-neutral-400">
+          <h1 className="text-[var(--primary-blue)]">
+            <img src={Logo} alt="Onesheet Logo" width={140} height={140} />
+          </h1>
         </div>
         <div className="hidden md:flex">
           <ul className="flex text-[var(--primary-blue)] items-center">
