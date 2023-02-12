@@ -5,18 +5,20 @@ import AboutCard from "./AboutCard";
 
 const About = () => {
   return (
-    <div className="w-full bg-black text-white text-center">
+    <div className="w-full bg-[var(--primary-blue)] text-white text-center">
       <div className="max-w-[1240px] mx-auto px-4 py-16 ">
         <div>
-          <h1 className="py-4">A Growing Protocol Ecosystem</h1>
-          <p className="py-4 text-xl">
-            The DeFi protocol system empowers developers, liquidity providers,
-            and traders to participate in a financial marketplace that is open
-            and accessible to all
+          <h1 className="py-4 text-white">
+            Range of Powerful Accounting Software Features{" "}
+          </h1>
+          <p className="py-4 text-xl text-white">
+            Onesheet is an intuitive online accounting software that provides
+            users with an easy way to track financial information, manage
+            expenses, and generate detailed reports with just a few clicks.
           </p>
 
           {/* Card Container*/}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 my-[5rem]">
             {/* Card */}
             <AboutCard
               icon={<SiHiveBlockchain size={40} />}

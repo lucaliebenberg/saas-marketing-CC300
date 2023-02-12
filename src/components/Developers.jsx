@@ -4,17 +4,22 @@ import terminal from "../assets/terminal.png";
 
 const Developers = () => {
   return (
-    <div className="w-full text-white bg-black pt-[50px]">
+    <div className="w-full h-[62vh] bg-white pt-[50px]">
       <div className="max-w-[1240px] mx-auto px-4 py-16 md:flex">
         <div>
-          <h1>Superpowers for DeFi developers.</h1>
-          <p>
-            Checkout the{" "}
-            <span className="text-[var(--primary-blue)]">documentation</span>,
-            the <span className="text-[var(--primary-blue)]">quick start </span>
-            or a guide below to integrate your porject with thousands of tokens
-            and billions of liquidity
+          <h1 className="mb-[3rem] text-[var(--primary-blue)]">
+            Expert AI Analytics.
+          </h1>
+          <p className="text-lg text-black">
+            Modern accounting software is powered by AI, giving businesses the
+            ability to streamline their finances and gain valuable insights from
+            their financial data.
           </p>
+          <ul className="pl-6 pt-5 text-md text-black">
+            <li className="list-disc">Predictive Analytics</li>
+            <li className="list-disc">Natural Language Processing</li>
+            <li className="list-disc">Highly Configurable</li>
+          </ul>
         </div>
         <div className="flex justify-center w-full py-16">
           <img
